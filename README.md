@@ -1,16 +1,31 @@
-### Hi there 👋
+# SpyderProtocol &middot; [![GitHub license](https://img.shields.io/badge/license-GPL3%2FApache2-blue)](#LICENSE) [![GitLab Status](https://gitlab.parity.io/parity/SpyderProtocol/badges/master/pipeline.svg)](https://gitlab.parity.io/parity/SpyderProtocol/pipelines) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](docs/CONTRIBUTING.adoc)
 
-<!--
-**SpyderProtocol/SpyderProtocol** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="/docs/media/logo.png">
+</p>
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+SpyderProtocol is a next-generation framework for blockchain innovation 🚀.
+
+## Trying it out
+
+Simply go to [SpyderProtocol.dev](https://SpyderProtocol.dev) and follow the 
+[installation](https://SpyderProtocol.dev/docs/en/knowledgebase/getting-started/) instructions. You can 
+also try out one of the [tutorials](https://SpyderProtocol.dev/en/tutorials).
+
+## Contributions & Code of Conduct
+
+Please follow the contributions guidelines as outlined in [`docs/CONTRIBUTING.adoc`](docs/CONTRIBUTING.adoc). In all communications and contributions, this project follows the [Contributor Covenant Code of Conduct](docs/CODE_OF_CONDUCT.md).
+
+## Security
+
+The security policy and procedures can be found in [`docs/SECURITY.md`](docs/SECURITY.md).
+
+## License
+
+- SpyderProtocol Primitives (`sp-*`), Frame (`frame-*`) and the pallets (`pallets-*`), binaries (`/bin`) and all other utilities are licensed under [Apache 2.0](LICENSE-APACHE2).
+- SpyderProtocol Client (`/client/*` / `sc-*`) is licensed under [GPL v3.0 with a classpath linking exception](LICENSE-GPL3).
+
+The reason for the split-licensing is to ensure that for the vast majority of teams using SpyderProtocol to create feature-chains, then all changes can be made entirely in Apache2-licensed code, allowing teams full freedom over what and how they release and giving licensing clarity to commercial teams.
+
+In the interests of the community, we require any deeper improvements made to SpyderProtocol's core logic (e.g. SpyderProtocol's internal consensus, crypto or database code) to be contributed back so everyone can benefit.
